@@ -1,0 +1,9 @@
+[Unit]
+Description=AI Orchestrator health snapshot
+After=network.target
+
+[Service]
+Type=oneshot
+User=orchestrator
+WorkingDirectory=/opt/ai-orchestrator
+ExecStart=/opt/ai-orchestrator/.venv/bin/python /opt/ai-orchestrator/monitor/collect_status.py

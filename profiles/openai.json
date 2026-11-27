@@ -1,0 +1,5 @@
+{
+  "profile": "openai",
+  "roles": {"brain":"openai","worker":"openai","reviewer":"openai"},
+  "extras": {"gemini":false,"hermes":false,"desktop_commander":false}
+}

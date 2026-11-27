@@ -1,0 +1,18 @@
+[Unit]
+Description=AI Orchestrator job %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=orchestrator
+WorkingDirectory=/opt/ai-orchestrator
+ExecStart=/opt/ai-orchestrator/.venv/bin/python -m core.supervisor --job-id %i
+Restart=on-failure
+RestartSec=60
+Environment=PYTHONUNBUFFERED=1
+Environment=HOME=/home/orchestrator
+Environment=PATH=/home/orchestrator/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "repos": {
+    "owner/name": {
+      "expected_origin": "https://github.com/owner/name.git",
+      "canonical_base_branch": "main",
+      "push_job_branch": false
+    }
+  }
+}

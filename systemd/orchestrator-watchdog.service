@@ -1,0 +1,9 @@
+[Unit]
+Description=AI Orchestrator watchdog (recover health timer, status snapshot, failed jobs)
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/ai-orchestrator
+ExecStart=/opt/ai-orchestrator/installer/watchdog.sh

@@ -1,0 +1,71 @@
+{
+  "mission": "self-rebuild",
+  "title": "AI Orchestrator Starter Kit self-rebuild",
+  "status": "ready",
+  "human_action_required": false,
+  "current_phase": "BUILD",
+  "current_task": "Refactor provider-neutral runtime before VM2",
+  "phases": [
+    {
+      "id": "inventory",
+      "label": "Inventory",
+      "status": "done"
+    },
+    {
+      "id": "design",
+      "label": "Clean-room design",
+      "status": "done"
+    },
+    {
+      "id": "prepare",
+      "label": "Autonomous mission setup",
+      "status": "done"
+    },
+    {
+      "id": "build",
+      "label": "Build/refactor",
+      "status": "pending"
+    },
+    {
+      "id": "static",
+      "label": "Static tests",
+      "status": "pending"
+    },
+    {
+      "id": "vm2install",
+      "label": "VM2 clean install",
+      "status": "pending"
+    },
+    {
+      "id": "reboot",
+      "label": "Reboot test",
+      "status": "pending"
+    },
+    {
+      "id": "e2e",
+      "label": "End-to-end job",
+      "status": "pending"
+    },
+    {
+      "id": "review",
+      "label": "Independent review",
+      "status": "pending"
+    },
+    {
+      "id": "repair",
+      "label": "Repair loop",
+      "status": "pending"
+    },
+    {
+      "id": "clean2",
+      "label": "Second clean install",
+      "status": "pending"
+    },
+    {
+      "id": "accept",
+      "label": "Final acceptance",
+      "status": "pending"
+    }
+  ],
+  "updated_at": 1789798871.1159608
+}

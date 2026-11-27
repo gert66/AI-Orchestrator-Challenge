@@ -1,0 +1,1 @@
+stdlib-only runtime; pytest is an optional development/test dependency

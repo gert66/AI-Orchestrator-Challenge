@@ -1,0 +1,5 @@
+{
+  "profile": "claude",
+  "roles": {"brain":"anthropic","worker":"anthropic","reviewer":"anthropic"},
+  "extras": {"gemini":false,"hermes":false,"desktop_commander":false}
+}

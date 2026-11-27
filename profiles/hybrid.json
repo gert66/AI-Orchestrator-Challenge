@@ -1,0 +1,5 @@
+{
+  "profile": "hybrid",
+  "roles": {"brain":"anthropic","worker":"auto","reviewer":"anthropic"},
+  "extras": {"gemini":true,"hermes":false,"desktop_commander":false}
+}
